@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Noto-Sans";
+  src: url("/assets/fonts/NotoSansGeorgian-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto-Sans-bold";
+  src: url("/assets/fonts/NotoSansGeorgian-Bold.ttf");
+  font-weight: 400;
+}
+
+@theme {
+  --font-noto-bold: "Noto-Sans-bold";
+}
+
+body {
+  font-family: "Noto-Sans", "Courier New", Courier, monospace;
+}
