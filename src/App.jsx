@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div className='flex justify-center items-center px-13 min-h-dvh gap-[40px]'>
-      <div className='flex max-x-[1170px] w-full justify-between'> {/*section*/}
+      <div className='flex max-w-[1170px] w-full justify-between'> {/*section*/}
         <div className='w-full flex-1'>
           <h1 className='text-[32px] font-bold text-[#36454F] font-Noto-Sans-bold leading-[150%] '>პროექტის შესახებ</h1>
           <p className='font-Noto-Sans text-[16px] text-[#36454F] leading-[150%] text-justify mb-[28px] mt-[33px] max-w-[437px]'>სარკვევი განკუთვნილია საბაკალავრო საფეხურის სტუდენტებისათვის, რომლებსაც ეკითხებათ სასწავლო კურსი „ბოტანიკა“, ასევე ბოტანიკით დაინტერესებული მაგისტრანტების, დოქტორანტების, მკვლევარებისა და მოყვარული ბოტანიკოსებისათვის, რომლებსაც აქვთ სურვილი მცენარეთა ოჯახების რკვევის პრაქტიკულ უნარ-ჩვევებს დაეუფლონ.</p>
